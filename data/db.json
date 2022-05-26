@@ -1,27 +1,6 @@
 {
   "contacts": [
     {
-      "id": 6,
-      "firstName": "Archie",
-      "lastName": "Mellory",
-      "phone": "+91 1234567890",
-      "email": "testname3@textdomain.com"
-    },
-    {
-      "firstName": "Deserunt maiores pra",
-      "lastName": "Dignissimos consequa",
-      "phone": "Rerum veniam ex qui",
-      "email": "Exercitation qui del",
-      "id": 7
-    },
-    {
-      "firstName": "Minim rem anim numqu2222",
-      "lastName": "In minima perspiciat",
-      "phone": "Sint omnis laborios",
-      "email": "Officia rem quo simi",
-      "id": 8
-    },
-    {
       "firstName": "Deserunt qui qui rec",
       "lastName": "Quisquam dolore et b",
       "phone": "Libero est nemo est ",

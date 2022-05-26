@@ -2,6 +2,7 @@
 import getContact from "@/composables/getContact";
 import { computed } from "vue";
 import { useRouter } from 'vue-router'
+import { API_URL } from '@/config/variable'
 
 const props = defineProps(["id"]);
 const { contact, error, load } = getContact(props.id);
@@ -16,7 +17,7 @@ const handleDelete = async () => {
   let result = confirm("Want to delete?");
   if (result) {
     try {
-      let data = await fetch("http://localhost:3001/contacts/"+props.id, {
+      let data = await fetch(API_URL + "/contacts/"+props.id, {
         method: 'DELETE',
       });
       if (!data.ok) {
