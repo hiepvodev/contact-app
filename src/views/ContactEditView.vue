@@ -2,6 +2,7 @@
 import getContact from "@/composables/getContact";
 import { computed, ref, watch } from "vue";
 import { useRouter } from 'vue-router'
+import { API_URL } from '@/config/variable'
 
 const props = defineProps(["id"]);
 const { contact, error, load } = getContact(props.id);
@@ -35,7 +36,7 @@ setTimeout(() => {
 
 const handleSave = async () => {
   try {
-    let data = await fetch("http://localhost:3001/contacts/"+props.id, {
+    let data = await fetch(API_URL + "/contacts/"+props.id, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'

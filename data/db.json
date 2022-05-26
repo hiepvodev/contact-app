@@ -1,34 +1,6 @@
 {
   "contacts": [
     {
-      "id": 2,
-      "firstName": "Archie",
-      "lastName": "Mellory",
-      "phone": "+91 1234567890",
-      "email": "testname3@textdomain.com"
-    },
-    {
-      "firstName": "Alexaa",
-      "lastName": "Soleria",
-      "phone": "+91 1234567890",
-      "email": "testname2@textdomain.com",
-      "id": 3
-    },
-    {
-      "id": 4,
-      "firstName": "Archie",
-      "lastName": "Mellory",
-      "phone": "+91 1234567890",
-      "email": "testname3@textdomain.com"
-    },
-    {
-      "firstName": "Alexaaaa",
-      "lastName": "Soleri",
-      "phone": "+91 1234567890",
-      "email": "testname2@textdomain.com",
-      "id": 5
-    },
-    {
       "id": 6,
       "firstName": "Archie",
       "lastName": "Mellory",
@@ -48,6 +20,20 @@
       "phone": "Sint omnis laborios",
       "email": "Officia rem quo simi",
       "id": 8
+    },
+    {
+      "firstName": "Deserunt qui qui rec",
+      "lastName": "Quisquam dolore et b",
+      "phone": "Libero est nemo est ",
+      "email": "Qui ut atque repelle",
+      "id": 9
+    },
+    {
+      "firstName": "Maiores dicta minima",
+      "lastName": "Est recusandae Dolo",
+      "phone": "Vel irure proident ",
+      "email": "Neque aspernatur cul",
+      "id": 10
     }
   ]
 }

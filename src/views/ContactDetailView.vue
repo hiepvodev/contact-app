@@ -1,10 +1,11 @@
 <script setup>
 import getContact from "@/composables/getContact";
 import { computed } from "vue";
+import { useRouter } from 'vue-router'
 
 const props = defineProps(["id"]);
 const { contact, error, load } = getContact(props.id);
-
+const router = useRouter()
 load();
 
 const shortName = computed(() => {
@@ -22,8 +23,9 @@ const handleDelete = async () => {
         throw Error("no data available");
       }
       console.log(data);
+      router.push({ name: 'home'})
     } catch (error) {
-      errorSave.value = error.message;
+      error.value = error.message;
       console.log(error);
     }
   }

@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "@vue/reactivity"
 import { useRouter } from 'vue-router'
+import { API_URL } from '@/config/variable'
 
 const props = defineProps(['id'])
 const userInfo = ref({
@@ -13,7 +14,7 @@ const router = useRouter()
 
 const handleSave = async () => {
   try {
-    let data = await fetch("http://localhost:3001/contacts/", {
+    let data = await fetch(API_URL + "/contacts/", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
